@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+        // Ana arka plan koyu renk
+        <color name="background_dark">#1C1C2E</color>
+
+        //Seçili seviye rengi (Intermediate için kullanılan mor ton)
+        <color name="purple_selected">#A64DFE</color>
+
+        //Buton rengi (Get Started)
+        <color name="button_purple">#A64DFE</color>
+
+        // Buton metin rengi
+        <color name="button_text">#FFFFFF</color>
+
+        //Genel beyaz yazı
+        <color name="text_white">#FFFFFF</color>
+
+        //Açıklama yazısı için gri ton
+        <color name="text_gray">#B0B0B0</color>
+
+        // Bildirim noktası (kırmızı)
+        <color name="notification_red">#FF0000</color>
+
+        // İkincil koyu zemin (örneğin butonların arka planı veya kart)
+        <color name="card_dark">#2A2A3D</color>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Workout App</string>
+    <string name="details_title">Detaylar</string>
+    <string name="beginner_level">Başlangıç</string>
+    <string name="intermediate_level">Orta Seviye</string>
+    <string name="advanced_level">İleri Seviye</string>
+    <string name="workout_duration">45 Dakika</string>
+    <string name="calories_burned">1770 kKal</string>
+    <string name="workout_title">Sadece 5 dakikalık antrenman</string>
+    <string name="workout_description">Etkin bir egzersiz için hazır olun. Kısa sürede yüksek verim sağlayan bir antrenman! Daha fazlası için oku…</string>
+    <string name="get_started_button">Başla</string>
+</resources>
