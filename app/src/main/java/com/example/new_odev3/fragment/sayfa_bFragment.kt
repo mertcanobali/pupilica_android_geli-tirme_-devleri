@@ -5,10 +5,13 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation
 import com.example.new_odev3.R
+import com.example.new_odev3.databinding.FragmentSayfaABinding
+import com.example.new_odev3.databinding.FragmentSayfaBBinding
 
 class sayfa_bFragment : Fragment() {
-
+    private  lateinit var  binding: FragmentSayfaBBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,8 +23,16 @@ class sayfa_bFragment : Fragment() {
             inflater: LayoutInflater, container: ViewGroup?,
             savedInstanceState: Bundle?
         ): View? {
-            // Inflate the layout for this fragment
-            return inflater.inflate(R.layout.fragment_sayfa_b, container, false)
+            binding= FragmentSayfaBBinding.inflate(inflater,container,false)
+            return binding.root
         }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.gecisbdenY.setOnClickListener {
+            val gecisby= sayfa_bFragmentDirections.actionSayfaBFragmentToSayfaYFragment()
+            Navigation.findNavController(it).navigate(gecisby)
+        }
+    }
 
     }
